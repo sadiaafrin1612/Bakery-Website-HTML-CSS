@@ -1,0 +1,732 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("./bg/hero.jpg");
+    height: 800px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+    font-family: 'Yesteryear', cursive;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+.box{
+  
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 529px;
+    display: block;
+    justify-content:center ;
+    
+}
+/* 
+ #menu-bar{
+    margin: 10px;
+} 
+
+#menu{
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+}
+.bar{
+    height: 5px;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    background-color: orange;
+    margin-top: -2px;
+    margin-left: -117px;
+}
+#bar1{
+    transform: translateY(-4px);
+}
+/* #bar2{
+    transform: translateY(-4px);
+} */
+
+/* #bar3{
+    transform: translateY(4px);
+} 
+
+.change .bar{
+    background-color: white;
+} */
+
+.nav-menu {
+    list-style: none;
+    margin-left: 700px;
+
+}
+
+.nav-menu li {
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-menu li a:hover {
+    color: tomato;
+}
+
+.header-1 {
+    color: tomato;
+    font-family: 'Rochester', cursive;
+    font-size: 58px;
+    margin-top: 186px
+}
+
+.header-2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 55px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    margin-top: 16px;
+}
+
+.header-btn {
+    color: white;
+    background-color: darkorange;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-btn:hover {
+    background-color: rgb(21, 167, 41);
+    color: rgb(231, 188, 152);
+}
+
+.my-bag {
+    font-size: 20px;
+}
+
+.search {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* ************************discover section**************** */
+
+.discover-section {
+    background-color: rgb(241, 238, 238);
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.food-item {
+    height: 311px;
+    width: 208px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.food-item p {
+    font-size: 10px;
+    color: rgb(151, 131, 100);
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+.food-item a {
+    text-decoration: none;
+    color: orange;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.food-1 {
+    background-image: url("./img/vertical2.jpg");
+    background-size: cover;
+    margin-top: -23px;
+    box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.7);
+}
+
+.food-2 {
+    background-image: url("./bg/bg-3.jpg");
+    background-size: cover;
+    box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.7);
+}
+
+.discover-h1 {
+    font-family: 'Rochester', cursive;
+    color: orange;
+    margin-bottom: 16px;
+}
+
+.discover-h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.food-border {
+    border: 2px solid orange;
+    position: relative;
+}
+
+.food-overlay {
+    position: absolute;
+    padding: 21px 1px 2px 0px;
+    background-color: white;
+    right: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 6px 6px 8px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+/* *******************************************************SPACIALITIES */
+
+.specialities-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("./img/specialities.jpg");
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.s-h1 {
+    font-family: 'Rochester', cursive;
+    color: orange;
+    text-align: center;
+    margin-bottom: -15px;
+    padding: 15px;
+}
+
+.s-h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.specialities-middle {
+    text-align: center;
+    position: relative;
+}
+
+.s-row {
+    display: flex;
+    justify-content: center;
+}
+
+.s-col {
+    width: 350px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.s-image1,
+.s-image2,
+.s-image3 {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.s-image1 {
+    background-image: url("./img/s1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.s-image2 {
+    background-image: url("./bg/bg-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.s-image3 {
+    background-image: url("./img/meatball.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.s-h3 {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.s-image1:hover .s-overlay,
+.s-image2:hover .s-overlay,
+.s-image3:hover .s-overlay {
+    opacity: 0.7;
+}
+
+.s-overlay {
+    position: absolute;
+    background-color: rgba(248, 186, 70, 1);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    padding: 10px;
+    transition: all 0.6s ease-in-out;
+}
+
+.s-overlay-border {
+    width: 100%;
+    height: 100%;
+    border: 3px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.specialities-middle:before {
+    content: '';
+    position: absolute;
+    border-top: 120px solid rgb(241, 238, 238);
+    border-right: 120rem solid transparent;
+    top: -100px;
+    left: 0;
+}
+
+.specialities-middle:after {
+    content: '';
+    position: absolute;
+    border-bottom: 98px solid rgb(241, 238, 238);
+    border-left: 119.1rem solid transparent;
+    bottom: -100px;
+    right: 0;
+}
+
+
+/* ************************************spacialities end */
+
+
+/*********************Special menu here */
+ .special-menu {
+    text-align: center;
+    padding: 50px;
+}
+
+.special-menu-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.special-menu-h1 {
+    font-family: 'Rochester', cursive;
+    color: orange;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.special-menu-h2 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+}
+
+.special-menu-h3{
+    width: 100%;
+    font-family: 'Rochester', cursive;
+    font-size: 22px;
+    letter-spacing: 3px;
+
+}
+
+.special-menu-h4{
+    width:100% ;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.line{
+    display: inline;
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: 15px auto;
+
+}
+
+.special-menu-p{
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+    padding: 30px 20px;
+    width: 100%;
+
+
+}
+
+ .special-menu-col{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+} 
+ .col-large{
+   width: 50%;
+   height: 450px;
+ display: flex;
+   justify-content: flex-start;
+    align-content: center; 
+   flex-wrap: wrap; 
+} 
+.col-large-3,
+.col-large-1{
+    background-color:orange;
+    color: white;
+    justify-content:center ;
+}
+.fa-utensils,
+.fa-ice-cream{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 10px;
+}  
+
+.col-large-2{
+    background-image: url('./img/Special-Menu/ice-cream.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.col-large-4{
+    background-image: url('./img/pizza.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.fa-hamburger{
+    color: orange;
+    font-size: 50px;
+width: 100%;
+margin-bottom: 10px;
+}
+
+.col-small{
+    width: 50%;
+    height: 225px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.col-small-1{
+    background-color: white;
+
+}
+
+.col-small-2{
+    background-image: url('./img/burger.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.col-small-3{
+    background-image: url('./img/Special-Menu/sushi-fish.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.col-small-h3{
+    font-family: 'Rochester', cursive;
+    font-size: 22px;
+    letter-spacing: 3px;
+    width: 100%;
+}
+.col-small-h4,
+.col-small-h5{
+    width: 100%;
+    color: black;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.col-small-h5{
+    color: orange;
+    margin-top: 10px;
+}
+.line-2{
+    display: inline;
+    width: 40px;
+    border-bottom: 2px solid orange;
+    margin: 15px auto;
+}
+
+
+.col-small-22{
+    background-image: url('./img/Special-Menu/chicken-grill.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.col-small-33{
+    background-image: url('./img/Special-Menu/chicken.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+/******************************End of Special menu here  */
+
+
+/*************************** Our menu-Section start */
+.our-menu-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./img/specialities.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+}
+.our-menu-h1{
+    font-family: 'Rochester', cursive;
+    color: orange;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.our-menu-h2{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+
+.food-container{
+    color: white;
+    text-align: left;
+    padding:5px;
+    margin-bottom: 25px;
+
+}
+.food-title{
+    display: inline-block;
+    letter-spacing: 1.7px;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    
+}
+.food-ingridients{
+    font-size: 9px;
+    letter-spacing: 1px;
+
+    font-family: 'Oswald', sans-serif;
+}
+.food-price{
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: orange;
+}
+
+.our-menu-row{
+    display: flex;
+    justify-content: center;
+    margin-top: -38px;
+    
+}
+.our-menu-col{
+    width: 40%;
+    max-width: 439px;
+    margin: 30px;
+}
+
+.our-menu-btn{
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 28px;
+
+}
+
+
+/*************************** Our menu-Section end*********************** */
+
+
+/****************************Booking table Section start***************************/
+
+.booking-table-section{ 
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(241, 238, 238);
+
+}
+
+.booking-table-h1{
+    font-family: 'Rochester', cursive;
+    color: orange;
+    margin-bottom: 15px;
+    font-size: 30px;
+
+}
+.booking-table-h2{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+
+.booking-table-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.booking-icon{
+    display: inline-block;
+    padding: 15px 20px;
+    border-right: 1px solid rgb(241, 238, 238);
+
+}
+.booking-div{
+    background-color: white;
+    margin: 30px 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.booking-date{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.booking-tbl{
+
+
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;
+
+}
+
+/****************************Booking table Section end***************************/
+
+footer{
+    padding: 60px 0px;
+    padding-bottom: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./img/horizontal.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: rgb(241, 238, 238);
+    text-align: left;
+
+}
+
+.footer-row{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+
+
+}
+
+.footer-col{
+    margin: 30px 58px;
+
+}
+
+
+
+.footer-title{
+    font-family: 'Oswald', sans-serif;
+    color: orange;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-text{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+font-size: 10px;
+padding: 3px;
+}
+.footer-email{
+    padding: 10px 25px;
+    width: 230px;
+    height: 45px;
+    margin-bottom: 25px;
+}
+
+.footer-subscribe{
+    display: inline-block;
+    width: 230px;
+    height: 45px;
+text-align: center;
+line-height: 45px;
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+
+
+.copyright{
+    padding: 20px;
+    color: rgb(241, 238, 238);
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+    border-top: 1px solid gray;
+}
+
+.copyright-name{
+    color: orange;
+}
+
